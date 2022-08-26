@@ -1,90 +1,115 @@
-# 星合の空
 
-欢迎访问我的主页！下面向你介绍一下我吧\~
+[leopard](http://leopardpan.cn) 是一个简洁的博客模板，响应式主题， 适配了电脑、手机各种屏幕，看效果直接点击下面链接
+ 
+ * [博客链接](http://leopardpan.cn) （部署在国内，访问更快）         
+ * [Demo链接](http://leopardpan.github.io/) （部署在github page）         
 
-<!-- .slide -->
+如果你喜欢请 Star ，你的 Star 是我持续更新的动力, 谢谢 😄.
+ 
+### 你在搭建个人博客遇到任何问题都可以找我
 
-## Contact
+遇到解决不了的问题 [需要技术支持联系我](http://leopardpan.cn/support/)
 
-- Address
-  - **Sun Yat-sen University - 132 Waihuan East Rd. - Guangzhou, China**
-- Site
-  - **<https://wu-kan.cn>**
-- [Resume](https://wu-kan.github.io/resume/resume.pdf)
 
-<!-- .slide vertical=true -->
+### 环境要求
 
-- Phone
-  - **+86 18756280097**
-- WeChat
-  - **Wu-\_-Kan**
-- E-mail:
-  - **[i[at]wu-kan.cn](mailto:i@wu-kan.cn)**
-  - **[wukan3[at]mail2.sysu.edu.cn](mailto:wukan3@mail2.sysu.edu.cn)**
+* Jekyll 支持: Mac 、Windows、ubuntu 、Linux 操作系统                     
+* Jekyll 需要依赖: Ruby、bundler
 
-<!-- .slide -->
+### 使用手册
 
-## Projects
+[Jekyll搭建个人博客](http://leopardpan.cn/2016/10/jekyll_tutorials1/)  :  使用Jekyll搭建个人博客的教程，及如何把这个博客模板修改成你自己的博客，里面也有大量的评论、Jekyll 搭建博客各种环境出现过的问题。
 
-<!-- .slide vertical=true -->
+[HEXO搭建个人博客](http://leopardpan.cn/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/) : 使用 HEXO 基于 Github Page 搭建个人博客， 教程里面累计了大量提问和评论，如果你在搭建博客时遇到问题，可以看看这个教程。 
 
-- [HPL-AI](https://wu-kan.cn/2021/03/14/HPL-AI/)[![Star](https://img.shields.io/github/stars/wu-kan/HPL-AI.svg)](https://github.com/wu-kan/HPL-AI)[![Fork](https://img.shields.io/github/forks/wu-kan/HPL-AI.svg)](https://github.com/wu-kan/HPL-AI/fork)
-  - An implementation of HPL-AI Mixed-Precision Benchmark based on hpl-2.3.
-  - Graduation design for undergraduate thesis.
 
-<!-- .slide vertical=true -->
+#### 安装Jekyll
 
-- [SYsU-lang](https://arcsysu.github.io/SYsU-lang/)[![Star](https://img.shields.io/github/stars/arcsysu/SYsU-lang.svg)](https://github.com/arcsysu/SYsU-lang)[![Fork](https://img.shields.io/github/forks/arcsysu/SYsU-lang.svg)](https://github.com/arcsysu/SYsU-lang/fork)
-  - A mini, simple and modular compiler for SYsU (a tiny C language).
-  - Based on flex, bison and LLVM.
+[Jekyll中文官方文档](http://jekyll.bootcss.com/) ， 如果你已经安装过了 Jekyll，可以忽略此处。
 
-<!-- .slide vertical=true -->
+> $ gem install jekyll
 
-- [jekyll-theme-WuK](https://jekyll-theme-WuK.wu-kan.cn/)[![Star](https://img.shields.io/github/stars/wu-kan/wu-kan.github.io.svg)](https://github.com/wu-kan/wu-kan.github.io)[![Fork](https://img.shields.io/github/forks/wu-kan/wu-kan.github.io.svg)](https://github.com/wu-kan/wu-kan.github.io/fork)
-  - A static blog system with content-first, sliding sidebar theme.
-  - Powered by Jekyll.
+#### 获取博客模板
 
-<!-- .slide -->
+> $ git clone https://github.com/leopardpan/leopardpan.github.io.git
 
-## Experience
+或者直接[下载博客](https://github.com/leopardpan/leopardpan.github.io/archive/master.zip)   
 
-- Teach Assistant of Compilation Principle, [Feb. 2022 - Jun. 2022](https://xianweiz.github.io/teach/dcs290/s2022.html) (expected)
-- Teach Assistant of Computer System Organization, Sep. 2021 - Jan. 2022
-- Intern of Inference Engine, Speech & Audio Team (Beijing), Bytedance AI Lab, Feb. 2021 - Aug. 2021
-- Leader of [SYSU-SCC](https://github.com/SYSU-SCC), Mar. 2020 - Jul. 2021
-- Quiz Setter, Judge and Host of the Closing Ceremony for [SYSU Programing Contest](https://wu-kan.cn/2020/11/29/SYSU-Collegiate-Programming-Contest-2020,-Onsite/), Oct. 2020
+进leopardpan.github.io/ 目录下， 开启本地服务 
 
-<!-- .slide -->
+> $ jekyll server
 
-## Blogs
+在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到博客效果了。
 
-- [我的 ASC 决赛复盘：冒险、失误与翻车](https://wu-kan.cn/2021/05/19/%E6%88%91%E7%9A%84ASC%E5%86%B3%E8%B5%9B%E5%A4%8D%E7%9B%98-%E5%86%92%E9%99%A9-%E5%A4%B1%E8%AF%AF%E4%B8%8E%E7%BF%BB%E8%BD%A6/)
-- [今日此时所想之事（二）](https://wu-kan.cn/2021/02/11/%E4%BB%8A%E6%97%A5%E6%AD%A4%E6%97%B6%E6%89%80%E6%83%B3%E4%B9%8B%E4%BA%8B-%E4%BA%8C/)
-- [十月九日](https://wu-kan.cn/2020/10/09/%E5%8D%81%E6%9C%88%E4%B9%9D%E6%97%A5/)
-- [今日此时所想之事](https://wu-kan.cn/2020/01/24/%E4%BB%8A%E6%97%A5%E6%AD%A4%E6%97%B6%E6%89%80%E6%83%B3%E4%B9%8B%E4%BA%8B/)
 
-<!-- .slide vertical=true -->
+### 提示
 
-- [基于 Jekyll 搭建个人博客](https://wu-kan.cn/2019/01/18/%E5%9F%BA%E4%BA%8EJekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
-- [我的算法竞赛模板](https://wu-kan.cn/2019/02/04/%E6%88%91%E7%9A%84%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%A8%A1%E6%9D%BF/)
-- [这一年的一点感想](https://wu-kan.cn/2019/07/18/%E8%BF%99%E4%B8%80%E5%B9%B4%E7%9A%84%E4%B8%80%E7%82%B9%E6%84%9F%E6%83%B3/)
+>* 如果你想使用我的模板，请把 _posts/ 目录下的文章都去掉。
+>* 修改 _config.yml 文件里面的内容为你自己的个人信息。
 
-<!-- .slide -->
+如果在部署博客的时候发现问题，可以直接在[Issues](https://github.com/leopardpan/leopardpan.github.io/issues)里面提问。        
 
-## Toolchains
 
-<!-- .slide vertical=true -->
+### 把这个博客变成你自己的博客
 
-- **C/C++**, Familiar
-  - **CUDA/HIP/ROCm**, Familiar&Learning
-  - **MPI**, Familiar
-  - **OpenMP**, Familiar
-- **Python**, Familiar
+根据上面【提示】修改过后，在你的github里创建一个username.github.io的仓库，username指的值你的github的用户名。      
+创建完成后，把我的这个模板使用git push到你的username.github.io仓库下就行了。
+搭建博客如果遇到问题可以看看我教程[Jekyll搭建个人博客](http://leopardpan.cn/2016/10/jekyll_tutorials1/)。
 
-<!-- .slide vertical=true -->
 
-- **Markdown**, Familiar
-- **$\LaTeX$**, Familiar
-- **Shell**, Familiar&Learning
-- **Git**, Familiar
-- **VSCode**, Familiar
+### 赞助
+
+你可以通过下方二维码赞助本项目，资金将用于服务器开销以及今后的公共服务
+
+感谢所有赞助过本项目的朋友，你们都为本项目贡献了自己的一份力量
+
+<details>
+
+<summary>微信二维码</summary>
+<img width="300" src="http://leopardpan.github.io/images/payimg/weipayimg.jpg" alt="wechat">
+</details>
+
+<details>
+
+<summary>支付宝二维码</summary>
+<img width="300" src="http://leopardpan.github.io/images/payimg/alipayim.jpg" alt="alipay">
+</details>
+
+
+### 效果预览
+
+#### 头像效果
+
+![](http://leopardpan.github.io/images/readme/icon.gif)
+
+如果你只想要我博客里的头像效果，你只需要拿 leopardpan.github.io/_includes/side-panel.html 文件里面 `头像效果` 和 leopardpan.github.io/css/main.css 里面最后面 `头像效果` 部分就行了。
+
+
+***
+
+#### 博客首页   
+
+![](http://leopardpan.github.io//images/readme/img4.png)   
+
+***  
+
+#### 每篇文章下面都支持打赏   
+
+![](http://leopardpan.github.io/images/readme/img3.png)
+
+#### 文章详情   
+
+![](http://leopardpan.github.io/images/readme/img1.png)
+
+
+#### 文章支持标签分类 
+
+![](http://leopardpan.github.io/images/readme/img2.png)
+
+#### 手机端效果
+
+<img width="300" src="http://leopardpan.github.io/images/readme/img5.png" alt="wechat">
+
+#### 感谢   
+
+本博客在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的。  
